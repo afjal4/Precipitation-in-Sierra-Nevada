@@ -13,7 +13,7 @@ We then forecast the precipitational patterns in Sierra Nevada from historic dat
 
 We applied ARIMA to the data in each of these regions to forecast the precipitation in each region individually, so the t parameter within P(t) grants varied precipitation P based on the ARIMA forecast. Using this, we can find values for P(y) for y in the future. We now define P(t) := the matrix P, t years after today (in 2024).
 
-The DEM Model can be represented as a 7200x7200 Matrix := Ca (California). Ca(0) := The initial state of Sierra Nevada, and the state of Sierra Nevada after n years is Ca(n) := P(n) ∘ P(n-1) ∘ ... ∘ P(1) ∘ P(0) ∘ Ca(0). We now need to define the P ∘ Ca, or the effect of a year of Precipitation on California.
+The DEM Model can be represented as a 7200x7200 Matrix := Ca (California). Ca(0) := The initial state of Sierra Nevada, and the state of Sierra Nevada after n years is Ca(n) := P(n) ∘ P(n-1) ∘ ... ∘ P(1) ∘ P(0) ∘ Ca(0). We now need to define the P ∘ Ca, or the effect of a year of Precipitation on California. (P<sub>1</sub> ∘ P<sub>2</sub> = P<sub>1</sub> + P<sub>2</sub> which is summing the rainfall from 2 years)
 
 Steepness also affects the intensity of errosion, more specifically from bombardment from rain. We find the a vector field to the mountain DEM, and use that to find the angle of a point with the horizontal, and then the cosine of the angle as a scalar field that damps the effect of bombardment on the errosion. Essentially, steeper hills errode less to bombardment as the droplet has less of a force component into the ground.
 
