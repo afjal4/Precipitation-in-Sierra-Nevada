@@ -22,6 +22,12 @@ One parameter affects the intensity of errosion, specifically from bombardment o
 </p>
 
 Now, by researching the geology of Sierra Nevada, we can identify specifically how the precipitation and steepness of the hill affect year on year errosion (defining P ∘ Ca).
+ --Equation
+
+We can finally visualise Ca(t) as P ∘ Ca has been defined.
+--Gif of the future, long into the future
+
+One interesting thing we can observe in the long term is how different migratory paths might change as the landscape changes. We use an algorithm inspired by the A* Pathfinding Algorithm.
 
 by Afjal C, Arvind, Tom, Sahil B, Tianzong C, Connie
 [1]https://earth.jaxa.jp/en/data/index.html
