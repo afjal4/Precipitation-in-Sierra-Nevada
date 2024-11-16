@@ -9,11 +9,11 @@ We start by creating a DEM (Digital Elevation Model) for the mountain range. We 
   <img src="https://github.com/user-attachments/assets/fe508619-f97e-4a34-bd10-70871ee8eca9" />
 </p>
 
-We then forecast the precipitational patterns in Sierra Nevada from historic data across 400 regions within the DEM, represented by a 20x20 Matrix := P(y), where y is the precipitation by year. 
+We then forecast the precipitational patterns in Sierra Nevada from historic data across 400 regions within the DEM, represented by a 20x20 Matrix := P(y), where y is the precipitation by year.
 
 ![output](https://github.com/user-attachments/assets/d05bb357-1cc3-45a8-919e-edbaf348fdc2)
 
-We applied a random forest/ML based algorithm to the data in each of these regions to forecast a precipitation matrix that fully utilises all 400 time series for each subregion, so the y parameter within P(y) grants varied precipitation P based on the Random Forest forecast. Using this, we can find values for P(y) for y in the future. We now define P(t) := the matrix P, t years after today (in 2024).
+We applied a random forest/ML based algorithm to the data in each of these regions to forecast a precipitation matrix that fully utilises all 400 time series for each subregion, so the y parameter within P(y) grants varied precipitation P based on the Random Forest forecast. Using this, we can find values for P(y) for y in the future. We now define P(t) := the matrix P, t years after today (in 2024). Here, a forecast of the temperature is also used to represent how more water is in the system; eastern winds from the pacific<sup>[3]</sup> grant a greater net income of water into the mountain range, as well as water melting from ice, freeing it from storage.
 
 The DEM Model can be represented as a 7200x7200 Matrix := Ca (California). Ca(0) := The initial state of Sierra Nevada, and the state of Sierra Nevada after n years is Ca(n) := P(n) ∘ C(n-1), (or Ca(n) = P(n) ∘ P(n-1) ∘ ... ∘ P(1) ∘ P(0) ∘ Ca(0)). We now need to define the P ∘ Ca, or the effect of a year of Precipitation on the errosion of California. (P<sub>1</sub> ∘ P<sub>2</sub> = P<sub>1</sub> + P<sub>2</sub> which is summing the rainfall from 2 years)
 
@@ -34,6 +34,7 @@ One interesting thing we can observe in the long term is how different migratory
 by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
 [1]https://earth.jaxa.jp/en/data/index.html
 [2]https://www.qgis.org
+[3]https://snrs.ucmerced.edu/natural-history/climate
 
 
 
