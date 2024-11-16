@@ -1,7 +1,7 @@
 # Precipitation-in-Sierrea-Nevada
 
 A consequence of the increasingly turbulant global climate is that the Sierra Nevada Moutnains, located in Eastern California, have undergone significant topographical change. In this project, we will explore specifically the change attributed to the abnormal precipitational patterns, and how the ecology of the mountain range develops accordingly.
-> "global climate models don’t capture the fine-scale topography and regional characteristics that we know shape our weather and climate around us." (Niel Berg)
+> "...global climate models don’t capture the fine-scale topography and regional characteristics that we know shape our weather and climate around us." (Niel Berg), on the tumultuous topography of Sierra Nevada
 
 We start by creating a DEM (Digital Elevation Model) for the range. We used data from the JAXA global sattelite imaging database<sup>[1]</sup> and collated it using QGIS Mapping Software<sup>[2]</sup>.
 ![actual_photo](https://github.com/user-attachments/assets/fe508619-f97e-4a34-bd10-70871ee8eca9)
