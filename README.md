@@ -13,7 +13,7 @@ We then forecast the precipitational patterns in Sierra Nevada from historic dat
 
 ![output](https://github.com/user-attachments/assets/d05bb357-1cc3-45a8-919e-edbaf348fdc2)
 
-We applied ARIMA to the data in each of these regions to forecast the precipitation in each region individually, so the t parameter within P(t) grants varied precipitation P based on the ARIMA forecast. Using this, we can find values for P(y) for y in the future. We now define P(t) := the matrix P, t years after today (in 2024).
+We applied a random forest/ML based algorithm to the data in each of these regions to forecast a precipitation matrix that fully utilises all 400 time series for each subregion, so the y parameter within P(y) grants varied precipitation P based on the Random Forest forecast. Using this, we can find values for P(y) for y in the future. We now define P(t) := the matrix P, t years after today (in 2024).
 
 The DEM Model can be represented as a 7200x7200 Matrix := Ca (California). Ca(0) := The initial state of Sierra Nevada, and the state of Sierra Nevada after n years is Ca(n) := P(n) ∘ C(n-1), (or Ca(n) = P(n) ∘ P(n-1) ∘ ... ∘ P(1) ∘ P(0) ∘ Ca(0)). We now need to define the P ∘ Ca, or the effect of a year of Precipitation on the errosion of California. (P<sub>1</sub> ∘ P<sub>2</sub> = P<sub>1</sub> + P<sub>2</sub> which is summing the rainfall from 2 years)
 
