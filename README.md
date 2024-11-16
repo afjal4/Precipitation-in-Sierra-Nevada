@@ -13,13 +13,14 @@ We then forecast the precipitational patterns in Sierra Nevada from historic dat
 
 The DEM Model can be represented as a 7200x7200 Matrix := Ca (California). Ca(0) := The initial state of Sierra Nevada, and the state of Sierra Nevada after n years is Ca(n) := P(n) ∘ P(n-1) ∘ ... ∘ P(1) ∘ P(0) ∘ Ca(0). We now need to define the P ∘ Ca, or the effect of a year of Precipitation on California.
 
-We observe that the type of precipitation that falls on a point depends on the point's altitude ie. snow will fall more frequently atop the mountain than on the mountain foot. In terms of the precipitations effect on the topography, rain errodes rock by bombardment, and the flow of waterdisplaces soil; whereas snow errodes once it melts, with overall errosion less significant than that of rain. Altitude clearly affects the effect of errosion from a given precipitation.
+Steepness also affects the intensity of errosion, more specifically from bombardment from rain. We find the a vector field to the mountain DEM, and use that to find the angle of a point with the horizontal, and then the cosine of the angle as a scalar field that damps the effect of bombardment on the errosion. Essentially, steeper hills errode less to bombardment as the droplet has less of a force component into the ground.
 
-Steepness also affects the intensity of errosion, more specifically from bombardment from rain. We find the normal vector field to the mountain DEM, and use that to find the angle of a point with the vertical, and then the cosine of the angle as a scalar field that damps the effect of bombardment on the errosion.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2104dd34-6c93-4e2d-8d99-fda76790484b" />
+</p>
 
-![image](https://github.com/user-attachments/assets/2104dd34-6c93-4e2d-8d99-fda76790484b)
+Now, by researching the geology of Sierra Nevada, we can identify specifically how the precipitation and steepness of the hill affect year on year errosion (defining P ∘ Ca).
 
-
-
+by Afjal C, Arvind, Tom, Sahil B, Tianzong C, Connie
 [1]https://earth.jaxa.jp/en/data/index.html
 [2]https://www.qgis.org
