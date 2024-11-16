@@ -4,6 +4,8 @@ A consequence of the increasingly turbulant global climate is that the Sierra Ne
 
 We start by creating a DEM (Digital Elevation Model) for the range...
 
+![image_of_map](https://github.com/user-attachments/assets/3ca61a2f-92db-4b68-a7fd-ca3091f0d8e6)
+
 We then forecast the precipitational patterns in Sierra Nevada from historic data as a scalar field...
 
 We observe that the type of precipitation that falls on a point depends on the point's altitude ie. snow will fall more frequently atop the mountain than on the mountain foot. In terms of the precipitations effect on the topography, rain errodes rock by bombardment, and the flow of waterdisplaces soil; whereas snow errodes once it melts, with overall errosion less significant than that of rain. Altitude clearly affects the effect of errosion from a given precipitation.
