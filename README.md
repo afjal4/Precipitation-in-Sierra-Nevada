@@ -31,7 +31,7 @@ We can finally visualise Ca(t) as P ∘ Ca has been defined.
 
 One interesting thing we can observe in the long term is how different migratory paths might change as the landscape changes. We use an algorithm inspired by the A* Pathfinding Algorithm.
 
-by Afjal C, Arvind, Tom, Sahil B, Tianzong C, Connie
+by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
 [1]https://earth.jaxa.jp/en/data/index.html
 [2]https://www.qgis.org
 
