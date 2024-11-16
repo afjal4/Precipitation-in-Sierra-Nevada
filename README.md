@@ -8,7 +8,7 @@ We start by creating a DEM (Digital Elevation Model) for the range. We used data
 
 We then forecast the precipitational patterns in Sierra Nevada from historic data across 400 regions within the DEM, represented by a 20x20 Matrix := P(t). We applied ARIMA to the data in each of these regions to forecast the precipitation in each region individually, so the t parameter within P(t) grants varied precipitation P based on the ARIMA forecast. 
 
-The DEM Model can be represented as a 7200x7200 Matrix := Ca (California). Ca(0) = The initial state of Sierra Nevada, and the state of Sierra Nevada after n years is Ca(n) := P(n) ∘ P(n-1) ∘ ... ∘ P(1) ∘ Ca. We now need to define the P ∘ Ca, or the effect of a year of Precipitation on California.
+The DEM Model can be represented as a 7200x7200 Matrix := Ca (California). Ca(0) := The initial state of Sierra Nevada, and the state of Sierra Nevada after n years is Ca(n) := P(n) ∘ P(n-1) ∘ ... ∘ P(1) ∘ P(0) ∘ Ca(0). We now need to define the P ∘ Ca, or the effect of a year of Precipitation on California.
 
 We observe that the type of precipitation that falls on a point depends on the point's altitude ie. snow will fall more frequently atop the mountain than on the mountain foot. In terms of the precipitations effect on the topography, rain errodes rock by bombardment, and the flow of waterdisplaces soil; whereas snow errodes once it melts, with overall errosion less significant than that of rain. Altitude clearly affects the effect of errosion from a given precipitation.
 
