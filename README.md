@@ -14,5 +14,9 @@ We observe that the type of precipitation that falls on a point depends on the p
 
 Steepness also affects the intensity of errosion, more specifically from bombardment from rain. We find the normal vector field to the mountain DEM, and use that to find the angle of a point with the vertical, and then the cosine of the angle as a scalar field that damps the effect of bombardment on the errosion.
 
+![image](https://github.com/user-attachments/assets/2104dd34-6c93-4e2d-8d99-fda76790484b)
+
+
+
 [1]https://earth.jaxa.jp/en/data/index.html
 [2]https://www.qgis.org
