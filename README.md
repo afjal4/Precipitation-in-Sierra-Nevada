@@ -41,7 +41,15 @@ $$
 $$
 
 We now model Δh<sub>f</sub>:</br>
-An assumption we make when modelling errosion due to water flow is that the granite will be negligably affected, which comes as an assumption that the granite is smooth: it is difficult to model a rough surface. Instead, this takes into account elevation loss due to snow melting, where snow is dragged away by rainfall. We can consider the snow line, which is the elevation level where snow settles on a mountain, to work out where snow can fall. This can be represented using a <b>piecewise function</b>.
+An assumption we make when modelling errosion due to water flow is that the granite will be negligably affected, which comes as an assumption that the granite is smooth: it is difficult to model a rough surface. Instead, this takes into account elevation loss due to snow melting, where snow is dragged away by rainfall. We can consider the snow line, which is the elevation level where snow settles on a mountain, to work out where snow can fall. 
+
+<p align="center">
+  <img width="1541" alt="Screenshot 2024-11-17 at 06 39 41" src="https://github.com/user-attachments/assets/c7b7746a-5af3-4723-99d3-7dae52073c5b">
+</p>
+
+ 
+
+This can be represented using a <b>piecewise function</b>.
 
 $$
 \Delta h_f = 
