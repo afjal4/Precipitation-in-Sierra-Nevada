@@ -19,9 +19,9 @@ The DEM Model can be represented as a 7200x7200 Matrix := Ca (California). Ca(0)
 
 Now, by researching the geology of Sierra Nevada, we can identify specifically how the precipitation and steepness of the hill affect year on year errosion (defining P ∘ Ca). We model errosion here through 2 primary mechanisms: bombardment of raindrops on the mountain surface and through water flow down the mountain. 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/7e67aadb-895e-4bfd-af79-70d95f794277" />
-</p>
+$$
+\Delta h = \Delta h_b + \Delta h+f
+$$
 
 We first model Δh<sub>b</sub>:</br>
 One parameter affects the intensity of bombardment is the slope. We find a vector field ∇Ca to the mountain range DEM matrix, and use that to find the angle of a point with the horizontal, and then the cosine of the angle as a scalar field that damps the effect of bombardment on the errosion. Essentially, steeper hills errode less to bombardment as the droplet has less of a force component into the ground.
@@ -38,9 +38,6 @@ Different geological factors also impact this errosion, namely the rock density 
 $$
 \Delta h_b = \frac{k \, \phi \, s \, \cos\theta}{\rho_r}P
 $$
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/83836ee8-b8ec-4592-a1e0-ebb2343c7783" />
-</p>
 
 We now model Δh<sub>f</sub>:</br>
 ...
