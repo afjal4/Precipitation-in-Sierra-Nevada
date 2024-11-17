@@ -47,7 +47,7 @@ $$
 \Delta h_f = 
 \begin{cases} 
 0 & h < z_{\text{snow}} \\
-k \sin(\theta) P \left( \Gamma h - T_0 \right) & h \geq z_{\text{snow} P}
+k \sin(\theta) P \left( \Gamma h - T_0 \right) & h \geq z_{\text{snow}}
 \end{cases}
 $$
 
