@@ -47,6 +47,7 @@ $$
 \begin{cases} 
 0 & \text{if } h < z_{\text{snow}} \\
 k \sin(\theta) \left( \Gamma (z - z_0) - T_0 \right) & \text{if } h \geq z_{\text{snow}}
+\end{cases}
 
 where
 
@@ -61,8 +62,6 @@ k: A constant that could represent factors like the flow rate or the snow's move
 z: The altitude in question.
 z_0: The reference altitude.
 T_0: A temperature constant or reference temperature.
-
-\end{cases}
 $$
 
 
