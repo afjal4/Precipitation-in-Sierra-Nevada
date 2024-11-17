@@ -47,6 +47,21 @@ $$
 \begin{cases} 
 0 & \text{if } h < z_{\text{snow}} \\
 k \sin(\theta) \left( \Gamma (z - z_0) - T_0 \right) & \text{if } h \geq z_{\text{snow}}
+
+where
+
+k = 0.0748
+
+Δh: The change in height or displacement.
+h: The height of the point in question.
+z_snow: The elevation of the snowline.
+k: A constant that could represent factors like the flow rate or the snow's movement.
+θ: The angle of the slope.
+Γ: A constant that could represent factors such as the thermal gradient or some other temperature-related parameter.
+z: The altitude in question.
+z_0: The reference altitude.
+T_0: A temperature constant or reference temperature.
+
 \end{cases}
 $$
 
