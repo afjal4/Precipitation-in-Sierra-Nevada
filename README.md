@@ -139,8 +139,8 @@ We can see a drastic change in the migratory path over this much longer period o
 
 Many species play key roles in pollination and seed dispersal, both of which are critical for maintaining plant diversity and ecosystem stability. For example, migratory birds and insects often transport pollen or seeds across vast distances. If their migration routes are disrupted, plants may face reduced pollination or struggle to spread their seeds to suitable environments, leading to changes in plant community composition and potentially the loss of certain species[12].
 
-A final caveat:
-All of the models we used for the...
+Ultimately, the models we developed based on our acquisition of secondary data and an amalgamation of useful equations and assumptions. We believe our models notably succeeded in predictions for the near future;  for instance with the Pathfinding Algorithm for migration route changes and the MDN as a neural network, especially in the conceivability of their forecasts for short future time frames. However, our models seemed to approach more unreasonable values as our time variable increased, so we’re inclined to believe that they’re unsuitable for larger time frames; for instance with the (AFJAL QUANTISE SOMETHING HERE)
+
 
 
 
