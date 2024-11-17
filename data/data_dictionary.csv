@@ -1,0 +1,62 @@
+Item,Name,Description,
+1,ID,Sample name.,
+2,LAT_nad27,"Latitude, in decimal degrees (NAD27), accurate to about 0.000001 degrees.",
+3,LON_nad27,"Longitude, in decimal degrees (NAD27), accurate to about 0.000001 degrees.",
+4,ELEV_m_navd29,"Ground elevation, in meters (NGVD29), accurate to about 3 meters.",
+5,DEPTH_m_navd29,"Depth below ground surface, accurate to about 3 meters.",
+6,RM,Rock modifier. See rock_dictionary.csv for explanation.,
+7,RT,Rock type. See rock_dictionary.csv for explanation.,
+8,AGE,"Age [Geologic unit symbol (e.g., Ti, Tertiary intrusive), geologic time symbol (e.g., T, Tertiary), or years in Ma (e.g., 72)].",
+9,ND,Number of density samples.,
+10,GD_kg_m3,"Grain density = 1000 kg/m3 * Wa/(Wa-Ww), in kilogram per cubic meter (kg/m3), accurate to about 5 kg/m3.",
+11,SBD_kg_m3,"Saturated bulk density = 1000 kg/m3 * Was/(Was-Ww), in kg/m3, accurate to about 5 kg/m3.",
+12,DBD_kg_m3,"Dry bulk density = 1000 kg/m3 * Wa/(Was-Ww), in kg/m3, accurate to about 5 kg/m3.",
+13,NS,Number of susceptibility samples.,
+14,SUSC_10-3_si,"Magnetic susceptibility, in 0.001 (10-3) SI units, accurate to about 0.005 x 10-3 SI units.",
+15,NR,Number of remanent magnetization samples.,
+16,RM_a_m,"Remanent magnetization, in amper per meter (A/m), accurate to about 0.005 x 10-3 SI units.",
+17,Q,"Koenigsberger ratio, the ratio between remanent and induced magnetization, accurate to about 0.01.",
+18,DEC_deg,"Declination, in decimal degrees, accurate to about 0.5 degree.",
+19,INC_deg,"Inclination, in decimal degrees, accurate to about 0.5 degree.",
+20,SRC,Source or data collector. See notes below.,
+21,COMMENTS,Comments,
+,,,
+Notes/Abbreviations,,,
+,Blank,"Blank, not available, or null value",
+,e.g.,For example.,
+,kg/m3,kilogram per cubic meter.,
+,A/m,ampere per meter.,
+,SRC,Sources:,
+,,AEE,A.E. Egger
+,,AAPM,A.A. Pera-McDonell
+,,BAIR,Baird
+,,CB ,C. Bouligand
+,,CWR,C.W. Roberts
+,,DAJ,D.A. John
+,,DAP,D.A. Ponce
+,,DM ,D. Miller
+,,DSS,D.S. Scheirer
+,,ELL,E.L. Looby
+,,ELM,E.L. Miller
+,,GAI,G.A. Izett
+,,GDB,G.D. Bath
+,,JDH,J.D. Hendricks
+,,JGD,J.G. Davidson
+,,JM,J. Mariano
+,,JMG,J.M.G. Glen
+,,JMGG,J.M.G. Glen
+,,JPC,J.P. Colgan
+,,JR,N.A.
+,,JTW,J.T. Watt
+,,LMH,N.A.
+,,MLG,N.A.
+,,MLZ,M.L. Zoback
+,,PEF,P.E. Faringer
+,,RCJ,R.C. Jachens
+,,RFS,R.F. Sikora
+,,RJW,R.J. Wooley
+,,RLM,R.L. Morin
+,,ROSS,D. Ross
+,,RWG,R.W. Graymer
+,,SLUD,S. Ludington
+,,VEL,V.E. Langenheim
