@@ -47,7 +47,7 @@ $$
 \Delta h_f = 
 \begin{cases} 
 0 & h < z_{\text{snow}} \\
-k \sin(\theta) \left( \Gamma z - T_0 \right) & h \geq z_{\text{snow}}
+k \sin(\theta) \left( \Gamma h - T_0 \right) & h \geq z_{\text{snow}}
 \end{cases}
 $$
 
@@ -59,8 +59,6 @@ $$
 
 k<sup>[5,6,7]</sup> = 0.0748
 
-Δh: Change in height (m)
-
 h: Height of the point (m)
 
 z<sub>0</sub>:: Reference altitude (m)
@@ -71,9 +69,8 @@ z<sub>snow</sub>: Elevation of the snowline (m)
 
 Γ: Lapse rate (°C/m)
 
-z: Altitude (m)
-
 T<sub>0</sub>: Reference temperature (at sea level)
+
 
 
 We can finally visualise Ca(t) as P ∘ Ca has been defined.
@@ -92,7 +89,7 @@ A final interesting thing we can observe in the long term is how different migra
 <p align="center">
   <img width="543" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/ddcab02c-a6aa-461f-b37a-2f7168e99a63">
 </p>
-
+We can apply the path finding algorithm to the varied 
 
 
 
