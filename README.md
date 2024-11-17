@@ -23,13 +23,21 @@ Now, by researching the geology of Sierra Nevada, we can identify specifically h
   <img src="https://github.com/user-attachments/assets/7e67aadb-895e-4bfd-af79-70d95f794277" />
 </p>
 
-We first model Δh<sub>b</sub>:
+We first model Δh<sub>b</sub>:</br>
 One parameter affects the intensity of bombardment is the slope. We find a vector field ∇Ca to the mountain range DEM matrix, and use that to find the angle of a point with the horizontal, and then the cosine of the angle as a scalar field that damps the effect of bombardment on the errosion. Essentially, steeper hills errode less to bombardment as the droplet has less of a force component into the ground.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2104dd34-6c93-4e2d-8d99-fda76790484b" />
 </p>
- --Equation
+
+Different geological factors also impact this errosion, namely the rock density ρ<sub>r</sub> rate of detachability D<sub>r</sub>, which depends on the porosity ϕ, saturation s and errosion coefficient k = 0.75. We decided find the average of rocks sampled uniformly throughout the mountain range to achieve ϕ = 0.0947, s = 0.487, which is similar value to that of granite, which makes sense as Sierra Nevada was formed volcanically and granite is igneous.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/abc2b557-7a0b-41f4-b831-3a123d5bb8ba" />
+</p>
+
+We now model Δh<sub>f</sub>:</br>
+...
 
 We can finally visualise Ca(t) as P ∘ Ca has been defined.
 --Gif of the future, long into the future
