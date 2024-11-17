@@ -30,7 +30,7 @@ One parameter affects the intensity of bombardment is the slope. We find a vecto
   <img src="https://github.com/user-attachments/assets/2104dd34-6c93-4e2d-8d99-fda76790484b" />
 </p>
 
-Different geological factors also impact this errosion, namely the rock density ρ<sub>r</sub> rate of detachability D<sub>r</sub>, which depends on the porosity ϕ, saturation s and errosion coefficient k = 0.75. We decided find the average of rocks sampled uniformly throughout the mountain range to achieve ϕ = 0.0947, s = 0.487, which is similar value to that of granite, which makes sense as Sierra Nevada was formed volcanically and granite is igneous.
+Different geological factors also impact this errosion, namely the rock density ρ<sub>r</sub> rate of detachability D<sub>r</sub>, which depends on the porosity ϕ, saturation s and errosion coefficient k = 0.75. We decided find the average of rocks sampled uniformly throughout the mountain range<sup>[4]</sup> to achieve ϕ = 0.0947, s = 0.487, which is similar value to that of granite, which makes sense as Sierra Nevada was formed volcanically and granite is igneous.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/abc2b557-7a0b-41f4-b831-3a123d5bb8ba" />
@@ -47,7 +47,8 @@ One interesting thing we can observe in the long term is how different migratory
 by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
 [1]https://earth.jaxa.jp/en/data/index.html
 [2]https://www.qgis.org
-[3]https://snrs.ucmerced.edu/natural-history/climate
+[3]https://www.sciencebase.gov/catalog/item/60356a96d34eb120311748e8
+[4]https://snrs.ucmerced.edu/natural-history/climate
 
 
 
