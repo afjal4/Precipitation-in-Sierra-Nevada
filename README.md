@@ -90,8 +90,9 @@ A resultant Δh may look like the graph below. A final method of smoothing is ap
 
 We can now define P ∘ Ca := Ca - ΔH(P, Ca), where ΔH is the matrix of all Δh. This means we can visualise Ca(t), or how Sierra Nevada looks as a function of time!
 <p align="center">
-  ![elevation_evolution_100](https://github.com/user-attachments/assets/7ebc8715-048e-4bf6-86b4-e6f53e003876)
+  <img src="https://github.com/user-attachments/assets/7ebc8715-048e-4bf6-86b4-e6f53e003876">
 </p>
+
 ## The Effect on the Long-Term Ecology
 One obvious ecological feature that can be observed from this data is the effect on the physical elevations/topography of the mountain range. We can observe that diminishing organic matter in soil, or more generally, overall soil quality leads to decreased biomass productivity. As a result, we can expect to see a reduction in animal/plant/any form of life diversity in the ecosystem. Another effect that may not appear as obvious occurs as a result of plant species (Tilman and Downing 1994). As plant specie count dropped to 5 from 25, local grassland was less resistant to drought and the total amount of biomass had dropped by more than fourfold<sup>[8]</sup>. 
 
