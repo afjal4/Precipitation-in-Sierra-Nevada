@@ -42,16 +42,20 @@ $$
 We now model Δh<sub>f</sub>:</br>
 
 $$
-\[
+\
 \Delta h = 
 \begin{cases} 
 0 & h < z_{\text{snow}} \\
-k \sin(\theta) \left( \Gamma (z - z_0) - T_0 \right) & h \geq z_{\text{snow}}
+k \sin(\theta) \left( \Gamma z - T_0 \right) & h \geq z_{\text{snow}}
 \end{cases}
 \
 $$
 
 where
+
+$$
+z_{\text{snow}} = z_{\text{0}} + (T<sub>0</sub> - T<sub>freeze</sub>)/Γ
+$$
 
 k = 0.0748
 
@@ -59,17 +63,17 @@ k = 0.0748
 
 h: Height of the point (m)
 
+z_{\text{0}}: Reference altitude (m)
+
 $\text{z}_{now}$: Elevation of the snowline (m)
 
 θ: Angle of the slope (rad)
 
 Γ: Lapse rate (°C/m)
 
-z: Altitude
+z: Altitude (m)
 
-z<sub>0</sub>: Reference altitude
-
-T<sub>0</sub>: Reference temperature (at reference altitude)
+T<sub>0</sub>: Reference temperature (at sea level)
 
 
 We can finally visualise Ca(t) as P ∘ Ca has been defined.
