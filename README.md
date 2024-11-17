@@ -17,7 +17,7 @@ We applied a <b>random forest/ML based algorithm</b> to the data in each of thes
 
 The DEM Model can be represented as a 7200x7200 Matrix := Ca (California). Ca(0) := The initial state of Sierra Nevada, and the state of Sierra Nevada after n years is Ca(n) := P(n) ∘ C(n-1), (or Ca(n) = P(n) ∘ P(n-1) ∘ ... ∘ P(1) ∘ P(0) ∘ Ca(0)). We now need to define <b>P ∘ Ca</b>, or the effect of a year of precipitation on the erosion of Sierra Nevada's terrain. (P<sub>1</sub> ∘ P<sub>2</sub> = P<sub>1</sub> + P<sub>2</sub> which is summing the rainfall from 2 years)
 
-Through the further exploration of the geology and topography of Sierra Nevada's terrain, we can specifically identify how the precipitation affects annual erosion (defining P ∘ Ca). We model erosion here through 2 primary mechanisms; <b>bombardment</b> of erosion due to bombardment from precipitation and through the flow of water <b>flow</b> down high terrain features, like mountains. 
+Through the further exploration of the geology and topography of Sierra Nevada's terrain, we can specifically identify how the precipitation affects annual erosion (defining P ∘ Ca). We model erosion here through 2 primary mechanisms; erosion due to bombardment from precipitation and through the flow of water <b>flow</b> down high terrain features, like mountains. 
 
 $$
 \Delta h = \Delta h_b + \Delta h_f
