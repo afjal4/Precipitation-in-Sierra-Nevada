@@ -33,7 +33,7 @@ A notable parameter that affects the intensity of bombardment due to precipitati
   cosθ, where θ is the angle between the vertical and v ∈ ∇Ca
 </p>
 
-Different geological factors also impact this erosion; namely the rock density ρ<sub>r</sub> and its corresponding rate of detachability D<sub>r</sub>, which is a measure of its willingness to 'erode' or detach itself from the surface on which it rests. The rate of detachability is the product of its porosity ϕ, saturation s, and erosion coefficient k. We decided find the average porosity and saturation values of rocks sampled uniformly throughout the mountain range<sup>[4]</sup> to arrive at ϕ = 0.0947 and s = 0.487. As for our value of k, we decided to use a value of 0.75(kg)(yr)/m², based on literature values from previous papers on rocks of similar composition and porosities. We note that these values are similar value to that of granite, which agrees with literature, since Sierra Nevada was formed volcanically (and is rich in granite and granitic material), and granite is known to be igneous.
+Different geological factors also impact this erosion; namely the rock density ρ<sub>r</sub> and its corresponding rate of detachability D<sub>r</sub>, which is a measure of its willingness to 'erode' or detach itself from the surface on which it rests. The rate of detachability is the product of its porosity ϕ, saturation s, and erosion coefficient k. We decided find the average porosity and saturation values of rocks sampled uniformly throughout the mountain range<sup>[4]</sup> to arrive at ϕ = 0.0947 and s = 0.487. As for our value of k, we decided to use a value of 0.75(kg)(yr)/m², based on literature values from previous papers on rocks of similar composition and porosities <sub> [4.1][4.2] </sub>. We note that these values are similar value to that of granite, which agrees with literature, since Sierra Nevada was formed volcanically (and is rich in granite and granitic material), and granite is known to be igneous.
 
 $$
 \Delta h_b = \frac{k \phi s \cos\theta}{\rho_r}P
@@ -115,6 +115,8 @@ by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
 [2]https://www.qgis.org
 [3]https://www.sciencebase.gov/catalog/item/60356a96d34eb120311748e8
 [4]https://snrs.ucmerced.edu/natural-history/climate
+[4.1] Selby, M.J. (1993): Hillslope materials and processes.
+[4.2] Montgomery, D.R., and Dietrich, W.E. (1992): Channel initiation studies that provide context for erosion processes in granitic landscapes.
 [5]Pomeroy, J., Gray, D., & Toth, B. (1998). "The role of snow accumulation in the Sierra Nevada snowpack." Journal of Hydrology. Sturm, M., & Liston, G. (2003). 
 [6]"Snow mechanics: A review of simple models." Cold Regions Science and Technology.
 [7]https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1B4E44F8B47C1A39934475B264AF8F35/S0260305500263271a.pdf/rheological-measurements-of-the-viscoelastic-properties-of-snow.pdf
