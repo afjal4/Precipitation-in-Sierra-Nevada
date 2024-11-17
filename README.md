@@ -126,14 +126,16 @@ Many species play key roles in pollination and seed dispersal, both of which are
 by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
 
 [1]https://earth.jaxa.jp/en/data/index.html
-[2]https://www.qgis.org
-[3]https://www.sciencebase.gov/catalog/item/60356a96d34eb120311748e8
-[4]https://snrs.ucmerced.edu/natural-history/climate
-[5]Pomeroy, J., Gray, D., & Toth, B. (1998). "The role of snow accumulation in the Sierra Nevada snowpack." Journal of Hydrology. Sturm, M., & Liston, G. (2003). 
-[6]"Snow mechanics: A review of simple models." Cold Regions Science and Technology.
-[7]https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1B4E44F8B47C1A39934475B264AF8F35/S0260305500263271a.pdf/rheological-measurements-of-the-viscoelastic-properties-of-snow.pdf
-[8]Ecology of Soil Erosion in Ecosystems, David Pimentel* and Nadia Kounang, College of Agriculture and Life Sciences
-[9]https://doi.org/10.1038/s43017-023-00427-8
-[10]https://doi.org/10.1038/nclimate2100
-[11]Wilmshurst, J. M., et al. (2004). "Migration of large herbivores and its effects on ecosystem function." Nature, 429, 130-132.
-[12]Bascompte, J., & Jordano, P. (2007). "Plant-animal mutualistic networks: the architecture of biodiversity." Annual Review of Ecology, Evolution, and Systematics, 38, 567-593.
+
+[2] https://www.qgis.org
+[3] https://www.sciencebase.gov/catalog/item/60356a96d34eb120311748e8
+[4] https://snrs.ucmerced.edu/natural-history/climate
+[5] Pomeroy, J., Gray, D., & Toth, B. (1998). "The role of snow accumulation in the Sierra Nevada snowpack." Journal of Hydrology. Sturm, M., & Liston, G. (2003). 
+[6] "Snow mechanics: A review of simple models." Cold Regions Science and Technology.
+[7] https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1B4E44F8B47C1A39934475B264AF8F35/S0260305500263271a.pdf/rheological-measurements-of-the-viscoelastic-properties-of-snow.pdf
+[8] Ecology of Soil Erosion in Ecosystems, David Pimentel* and Nadia Kounang, College of Agriculture and Life Sciences
+[9] https://doi.org/10.1038/s43017-023-00427-8
+[10] https://doi.org/10.1038/nclimate2100
+[11] Wilmshurst, J. M., et al. (2004). "Migration of large herbivores and its effects on ecosystem function." Nature, 429, 130-132.
+[12] Bascompte, J., & Jordano, P. (2007). "Plant-animal mutualistic networks: the architecture of biodiversity." Annual Review of Ecology, Evolution, and Systematics, 38, 567-593.
+[13] https://www.mdpi.com/1999-4907/12/6/753
