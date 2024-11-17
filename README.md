@@ -54,7 +54,7 @@ $$
 where
 
 $$
-z_{\text{snow}} = z_{\text{0}} + \frac{T<sub>0</sub> - T<sub>0</sub>}{\Gamma}
+z_{\text{snow}} = z_{\text{0}} + \frac{T<sub>0</sub> - T<sub>freeze</sub>}{\Gamma}
 $$
 
 k = 0.0748
