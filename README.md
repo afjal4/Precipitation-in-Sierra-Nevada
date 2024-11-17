@@ -1,6 +1,6 @@
 # The-Long-Term-Effects-of-Varying-Precipitation-in-Sierra-Nevada
 
-A consequence of the increasingly turbulant global climate is that the Sierra Nevada Moutnains, located in Eastern California, have undergone significant topographical change. In this project, we will explore the long term topographical changes attributed to the ever-changing precipitational patterns, and how the ecology of the mountain range develops accordingly. We will specifically analyse the <bold>long term</bold> effects of the varied rainfall in this project, focussing more on fluctuations year to year, or decade to decade versus any variation between eg. summer and winter.
+A consequence of the increasingly turbulant global climate is that the Sierra Nevada Moutnains, located in Eastern California, have undergone significant topographical change. In this project, we will explore the long term topographical changes attributed to the ever-changing precipitational patterns, and how the ecology of the mountain range develops accordingly. We will specifically analyse the <b>long term</b> effects of the varied rainfall in this project, focussing more on fluctuations year to year, or decade to decade versus any variation between eg. summer and winter.
 
 > "...global climate models don’t capture the fine-scale topography and regional characteristics that we know shape our weather and climate around us." (Niel Berg), on the tumultuous topography of Sierra Nevada
 
