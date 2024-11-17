@@ -104,10 +104,11 @@ A final interesting thing we can observe in the long term is how different migra
 We can apply the path finding algorithm to Ca(t) to visualise how these migratory paths will shift with time. 
 
 
-From the above two images, we can see a clear difference between the two migration routes conducted in the present time and prediction in a thousand years. This is mainly caused by climate change which is causing shifts in temperature and precipitation patterns, affecting topography as we showed in the previous section. One recent study found that current sea surface temperature extremes driven by El Niño have intensified by around 10% compared to pre-1960 levels.[9] This builds on previous studies which predicted that the frequency of extreme El Niño events could double over the next century due to faster surface warming of the eastern Pacific Ocean brought on by global temperature rises.[10] The increase in the intensity of El Niño can result in more frequent and stronger summer storms which further erode the landscape and changes the topology. This can cause further changes in the migration routes due to changes in availability of certain vegetation and any new-formed physical barriers. 
+From the above two images, we can see a clear difference between the two migration routes conducted in the present time and prediction in a thousand years. This is mainly caused by climate change which is causing shifts in temperature and precipitation patterns, affecting topography as we showed in the previous section. One recent study found that current sea surface temperature extremes driven by El Niño have intensified by around 10% compared to pre-1960 levels.[9] This builds on previous studies which predicted that the frequency of extreme El Niño events could double over the next century due to faster surface warming of the eastern Pacific Ocean brought on by global temperature rises.[10] The increase in the intensity of El Niño can result in more frequent and stronger summer storms which further erode the landscape and changes the topology. This can cause further changes in the migration routes due to changes in the availability of certain vegetation and any newly formed physical barriers. 
 
-
-
+Furthermore,  animals changing migration routes can lead to disruption of nutrient cycling, alter habitat availability, and impact on pollination and seed dispersal. Many migratory species contribute significantly to nutrient cycling. For example, large herbivores (e.g.: mule deer) that migrate across landscapes help cycle nutrients through their droppings, enriching soil fertility. If these species change their routes, the flow of nutrients could be altered, leading to shifts in soil health, plant productivity, and the overall resilience of ecosystems.[11] 
+Migration routes often follow seasonal patterns that bring animals to specific habitats that are critical for breeding, feeding, or shelter. Not being able to access those areas can lead to population declines and reduced biodiversity. The loss of migratory species from a particular habitat can also disrupt the balance of species in that area, leading to changes in community structure and function.
+Many species play key roles in pollination and seed dispersal, both of which are critical for maintaining plant diversity and ecosystem stability. For example, migratory birds and insects often transport pollen or seeds across vast distances. If their migration routes are disrupted, plants may face reduced pollination or struggle to spread their seeds to suitable environments, leading to changes in plant community composition and potentially the loss of certain species. Many species play key roles in pollination and seed dispersal, both of which are critical for maintaining plant diversity and ecosystem stability.[12]
 
 by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
 
@@ -115,13 +116,11 @@ by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
 [2]https://www.qgis.org
 [3]https://www.sciencebase.gov/catalog/item/60356a96d34eb120311748e8
 [4]https://snrs.ucmerced.edu/natural-history/climate
-[4.1] Selby, M.J. (1993): Hillslope materials and processes.
-[4.2] Montgomery, D.R., and Dietrich, W.E. (1992): Channel initiation studies that provide context for erosion processes in granitic landscapes.
-[4.3] Gao, Lan, and Guo: Pore Structural Features of Granite under Different Temperatures
-[4.5] Batholith: Creation of the Sierra Nevada 
 [5]Pomeroy, J., Gray, D., & Toth, B. (1998). "The role of snow accumulation in the Sierra Nevada snowpack." Journal of Hydrology. Sturm, M., & Liston, G. (2003). 
 [6]"Snow mechanics: A review of simple models." Cold Regions Science and Technology.
 [7]https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1B4E44F8B47C1A39934475B264AF8F35/S0260305500263271a.pdf/rheological-measurements-of-the-viscoelastic-properties-of-snow.pdf
 [8]Ecology of Soil Erosion in Ecosystems, David Pimentel* and Nadia Kounang, College of Agriculture and Life Sciences
 [9]https://doi.org/10.1038/s43017-023-00427-8
 [10]https://doi.org/10.1038/nclimate2100
+[11]Wilmshurst, J. M., et al. (2004). "Migration of large herbivores and its effects on ecosystem function." Nature, 429, 130-132.
+[12]Bascompte, J., & Jordano, P. (2007). "Plant-animal mutualistic networks: the architecture of biodiversity." Annual Review of Ecology, Evolution, and Systematics, 38, 567-593.
