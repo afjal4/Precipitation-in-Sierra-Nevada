@@ -29,6 +29,7 @@ One parameter affects the intensity of bombardment is the slope. We find a vecto
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2104dd34-6c93-4e2d-8d99-fda76790484b" />
   Ca, ∇Ca
+
   <img src="https://github.com/user-attachments/assets/2cc7c551-04b8-4ff2-8f90-c834261c76b5" />
   cosθ, where θ is the angle between the vertical and v ∈ ∇Ca
 </p>
