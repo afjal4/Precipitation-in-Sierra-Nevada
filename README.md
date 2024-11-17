@@ -115,9 +115,16 @@ A final interesting thing we can observe in the long term is how different migra
   <img width="543" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/ddcab02c-a6aa-461f-b37a-2f7168e99a63">
 </p>
 We can apply the path finding algorithm to Ca(t) to visualise how these migratory paths will shift with time. 
-
-
-From the above two images, we can see a clear difference between the two migration routes conducted in the present time and prediction 100 years. One recent study found that current sea surface temperature extremes driven by El Niño have intensified by around 10% compared to pre-1960 levels.[9] This builds on previous studies which predicted that the frequency of extreme El Niño events could double over the next century due to faster surface warming of the eastern Pacific Ocean brought on by global temperature rises.[10] The increase in the intensity of El Niño can result in more frequent and stronger summer storms which further erode the landscape and changes the topology. This can cause further changes in the migration routes due to changes in the availability of certain vegetation and any newly formed physical barriers. 
+<p align="center">
+  <img width="543" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/bc0aa14a-2919-482d-8538-be68caae4b63">
+  Path after 50 years
+</p>
+When 50 years passes, the migratory path looks roughly similar. This is as errosion is typically a slow process<sup>[4.1]</sup> so 50 years is unlikely to see any/much change.
+<p align="center">
+  <img width="543" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/214c957a-0a77-45ee-86a9-5e88fef7ccc1">
+  Path after 1000 years
+</p>
+We can see a drastic change in the migratory path over this much longer period of time. One recent study found that current sea surface temperature extremes driven by El Niño have intensified by around 10% compared to pre-1960 levels.[9] This builds on previous studies which predicted that the frequency of extreme El Niño events could double over the next century due to faster surface warming of the eastern Pacific Ocean brought on by global temperature rises.[10] The increase in the intensity of El Niño can result in more frequent and stronger summer storms which further erode the landscape and changes the topology. This can cause further changes in the migration routes due to changes in the availability of certain vegetation and any newly formed physical barriers. 
 
 Furthermore, animals changing migration routes can lead to disruption of nutrient cycling, alter habitat availability, and impact pollination and seed dispersal. Many migratory species contribute significantly to nutrient cycling. For example, large herbivores (e.g.: mule deer) that migrate across landscapes help cycle nutrients through their droppings, enriching soil fertility. If these species change their routes, the flow of nutrients could be altered, leading to shifts in soil health, plant productivity, and the overall resilience of ecosystems.[11] 
 
