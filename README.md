@@ -7,8 +7,8 @@ A consequence of the increasingly turbulent global climate is that the Sierra Ne
 We start by creating a <b>DEM (Digital Elevation Model)</b> for the mountain range. We used data from the JAXA global satellite imaging database<sup>[1]</sup> and collated it using QGIS Mapping Software<sup>[2]</sup>. This contains 7200x7200 30mx30m points.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fe508619-f97e-4a34-bd10-70871ee8eca9" />
-Map of data from the JAXA global satellite
+  <img src="https://github.com/user-attachments/assets/fe508619-f97e-4a34-bd10-70871ee8eca9"/>
+  Map of Sierra Nevada from the JAXA global satellite
 </p>
 
 We then forecast the precipitation patterns in Sierra Nevada from historic data across 400 regions within the DEM<sup>[2.1]</sup>, represented by a 20x20 Matrix := P(y), where y is the precipitation by year. This <b>lower resolution is much more appropriate</b> for this context as it is much more viable to store 2000 20x20 matrices (3MB) as opposed to 2000 7200x7200 matrices (392GB) when we proceed with using these matrices for future forecasts. 
