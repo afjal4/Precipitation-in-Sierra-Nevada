@@ -164,6 +164,7 @@ by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
 [10] Increasing frequency of extreme El Nino events due to greenhouse warming | request PDF. Available at: https://www.researchgate.net/publication/259868282_Increasing_Frequency_of_Extreme_El_Nino_Events_due_to_Greenhouse_Warming (Accessed: 17 November 2024). 
 [11] Wilmshurst, J. M., et al. (2004). "Migration of large herbivores and its effects on ecosystem function." Nature, 429, 130-132.
 [12] Bascompte, J., & Jordano, P. (2007). "Plant-animal mutualistic networks: the architecture of biodiversity." Annual Review of Ecology, Evolution, and Systematics, 38, 567-593.
+[14] https://publications.aston.ac.uk/id/eprint/373/1/NCRG_94_004.pdf
 [13] Sáez-Cano, G. et al. (2021) Modelling tree growth in monospecific forests from Forest Inventory Data, MDPI. Available at: https://www.mdpi.com/1999-4907/12/6/753 (Accessed: 17 November 2024). 
 [15] https://github.com/dusenberrymw/mixture-density-networks/blob/master/mixture_density_networks.ipynb
 [17] https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/blob/master/MDN-Introduction.ipynb
