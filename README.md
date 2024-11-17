@@ -54,7 +54,7 @@ $$
 where
 
 $$
-z_{\text{snow}} = z_{\text{0}} + (T<sub>0</sub> - T<sub>freeze</sub>)/Γ
+z_{\text{snow}} = z_{\text{0}} + \frac{T<sub>{0}</sub> - T<sub>{freeze}</sub>}{\Gamma}
 $$
 
 k = 0.0748
@@ -63,7 +63,7 @@ k = 0.0748
 
 h: Height of the point (m)
 
-z_{\text{0}}: Reference altitude (m)
+z<sub>0</sub>:: Reference altitude (m)
 
 $\text{z}_{now}$: Elevation of the snowline (m)
 
