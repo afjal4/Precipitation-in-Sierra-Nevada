@@ -40,7 +40,7 @@ $$
 $$
 
 We now model Δh<sub>f</sub>:</br>
-An assumption we make when modelling erosion due to water downflow is that the granite impact on granite is negligible, which comes as an assumption that the granite is smooth, which exists to simplify our model. Instead, this takes into account the downflow of snow due to precipitation, where snow is dragged away by rainfall. We can consider the snow line - which is the elevation level at which snow settles on a mountain - to work out where snow can fall. 
+An assumption we make when modelling erosion due to water downflow is that the granite impact on granite is negligible, which comes as an assumption that the granite is smooth, which exists to simplify our model. As a result, our model instead takes into account the downflow of snow due to precipitation, where snow is dragged away by rainfall. We can consider the snow line - which is the lower topographic limit of permanent snow cover on high terrain features - to work out where snow can fall. 
 
 <p align="center">
   <img width="1541" alt="Screenshot 2024-11-17 at 06 39 41" src="https://github.com/user-attachments/assets/c7b7746a-5af3-4723-99d3-7dae52073c5b">
