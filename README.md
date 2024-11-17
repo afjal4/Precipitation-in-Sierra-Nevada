@@ -59,7 +59,7 @@ k = 0.0748
 
 h: Height of the point (m)
 
-z_snow: Elevation of the snowline (m)
+z_{\text{snow}}: Elevation of the snowline (m)
 
 θ: Angle of the slope (rad)
 
