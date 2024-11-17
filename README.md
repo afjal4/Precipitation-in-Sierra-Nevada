@@ -78,13 +78,19 @@ T<sub>0</sub>: Reference temperature (at sea level)
 We can finally visualise Ca(t) as P ∘ Ca has been defined.
 --Gif of the future, long into the future
 
-One interesting thing we can observe in the long term is how different migratory paths might change as the landscape changes. We use an algorithm inspired by the A* Pathfinding Algorithm. By establishing a vector field using the DEM Model and by making the assumption that animals tend to take easier paths, one can then predict their movement and their paths of migration. 
+## The Effect on the Long-Term Ecology
+One obvious ecological feature that can be observed from this data is the effect on the physical elevations/topography of the mountain range. We can observe that...
+
+We also analysed the effect of varied precipitation on a more local scale to analyse the dynamics of the population of the Ponderosa Pine, a species of tree that is very commonly found in Sierra Nevada. We did this using a local interaction model, which is similar to the automaton model used in [Conoway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+![image](https://github.com/user-attachments/assets/a8c53c5b-d8ae-4d0a-8f13-7cdb65661a8c)
+
+
+A final interesting thing we can observe in the long term is how different migratory paths might change as the landscape changes. We use an algorithm inspired by the A* Pathfinding Algorithm. By establishing a vector field using the DEM Model and by making the assumption that animals tend to take easier paths, one can then predict their movement and their paths of migration. 
 <p align="center">
   <img width="543" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/ddcab02c-a6aa-461f-b37a-2f7168e99a63">
 </p>
 
-We also analysed the effect of varied precipitation on a more local scale to analyse the dynamics of the  
-![image](https://github.com/user-attachments/assets/a8c53c5b-d8ae-4d0a-8f13-7cdb65661a8c)
+
 
 
 by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
