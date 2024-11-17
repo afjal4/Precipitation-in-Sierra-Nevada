@@ -91,7 +91,7 @@ We can finally visualise Ca(t) as P ∘ Ca has been defined.
 --Gif of the future, long into the future
 
 ## The Effect on the Long-Term Ecology
-One obvious ecological feature that can be observed from this data is the effect on the physical elevations/topography of the mountain range. We can observe that...
+One obvious ecological feature that can be observed from this data is the effect on the physical elevations/topography of the mountain range. We can observe that diminishing organic matter in soil, or more generally, overall soil quality leads to decreased biomass productivity. As a result, we can expect to see a reduction in animal/plant/any form of life diversity in the ecosystem<sup>[8]</sup>.
 
 We also analysed the effect of varied precipitation on a more local scale to analyse the dynamics of the population of the Ponderosa Pine, a species of tree that is very commonly found in Sierra Nevada. We did this using a local interaction model, which is similar to the automaton model used in [Conoway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 <p align="center">
@@ -116,6 +116,6 @@ by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
 [5]Pomeroy, J., Gray, D., & Toth, B. (1998). "The role of snow accumulation in the Sierra Nevada snowpack." Journal of Hydrology. Sturm, M., & Liston, G. (2003). 
 [6]"Snow mechanics: A review of simple models." Cold Regions Science and Technology.
 [7]https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1B4E44F8B47C1A39934475B264AF8F35/S0260305500263271a.pdf/rheological-measurements-of-the-viscoelastic-properties-of-snow.pdf
-
+[8]Ecology of Soil Erosion in Ecosystems, David Pimentel* and Nadia Kounang, College of Agriculture and Life Sciences
 
 
