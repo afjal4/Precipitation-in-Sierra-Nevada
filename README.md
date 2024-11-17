@@ -42,17 +42,19 @@ $$
 We now model Δh<sub>f</sub>:</br>
 An assumption we make when modelling errosion due to water flow is that the granite will be negligably affected, which comes as an assumption that the granite is smooth: it is difficult to model a rough surface. Instead, this takes into account elevation loss due to snow melting, where snow is dragged away by rainfall. The snow line is defined as the elevation level where snow settles on a mountain, and is a function of the temperature.
 
-'''math
-\
+$$
 \Delta h = 
 \begin{cases} 
 0 & h < z_{\text{snow}} \\
 k \sin(\theta) \left( \Gamma z - T_0 \right) & h \geq z_{\text{snow}}
 \end{cases}
-\
+$$
 
-\text{where } z_{\text{snow}} = z_{\text{0}} + \frac{T<sub>0</sub> - T<sub>freeze</sub>}{\Gamma}
-'''
+where
+
+$$
+z_{\text{snow}} = z_{0} + \frac{T_0 - T_{\text{freeze}}}{\Gamma}
+$$
 
 k<sup>[5,6,7]</sup> = 0.0748
 
