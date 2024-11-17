@@ -47,9 +47,7 @@ An assumption we make when modelling errosion due to water flow is that the gran
   <img width="1541" alt="Screenshot 2024-11-17 at 06 39 41" src="https://github.com/user-attachments/assets/c7b7746a-5af3-4723-99d3-7dae52073c5b">
 </p>
 
- 
-
-This can be represented using a <b>piecewise function</b>.
+ Here, only data from the peaks (above the snow line) is able to melt and reduce; being above this threshold is a mask which can be represented using a <b>piecewise function</b>.
 
 $$
 \Delta h_f = 
