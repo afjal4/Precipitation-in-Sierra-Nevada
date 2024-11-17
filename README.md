@@ -45,10 +45,10 @@ $$
 \[
 \Delta h = 
 \begin{cases} 
-0 & \text{if } h < z_{\text{snow}} \\
-k \sin(\theta) \left( \Gamma (z - z_0) - T_0 \right) & \text{if } h \geq z_{\text{snow}}
+0 & h < z_{\text{snow}} \\
+k \sin(\theta) \left( \Gamma (z - z_0) - T_0 \right) & h \geq z_{\text{snow}}
 \end{cases}
-\]
+\
 $$
 
 where
@@ -65,11 +65,11 @@ $\text{z}_{now}$: Elevation of the snowline (m)
 
 Γ: Lapse rate (°C/m)
 
-z: Altitude in question.
+z: Altitude
 
-z<sub>0</sub>: Reference altitude.
+z<sub>0</sub>: Reference altitude
 
-T<sub>0</sub>: Reference temperature (at reference altitude).
+T<sub>0</sub>: Reference temperature (at reference altitude)
 
 
 We can finally visualise Ca(t) as P ∘ Ca has been defined.
