@@ -172,5 +172,5 @@ by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
 [17] https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/blob/master/MDN-Introduction.ipynb
 [18] https://towardsdatascience.com/predicting-the-unpredictable-905f634acc20
 [19]https://ucanr.edu/sites/forestry/Ecology/Identification/Ponderosa_Pine_Pinus_ponderosa/
-[20]
+[20]Fowler, D.W., & Porth, D. (2009). Ecology and Silviculture of Ponderosa Pine in the Western United States. Fire Science Journal.
 
