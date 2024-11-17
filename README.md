@@ -62,7 +62,7 @@ $$
 z_{\text{snow}} = z_{0} + \frac{T_0 - T_{\text{freeze}}}{\Gamma}
 $$
 
-k<sup>[5,6,7]</sup> = 0.0748
+k<sup>[5,6,7]</sup> = 0.0748 (the value of which was determined through the considerations of the average density and viscosity of loosely packed snow)
 
 h: Height of the point (m)
 
@@ -91,7 +91,7 @@ We can finally visualise Ca(t) as P ∘ Ca has been defined.
 One obvious ecological feature that can be observed from this data is the effect on the physical elevations/topography of the mountain range. We can observe that diminishing organic matter in soil, or more generally, overall soil quality leads to decreased biomass productivity. As a result, we can expect to see a reduction in animal/plant/any form of life diversity in the ecosystem<sup>[8]</sup>; it is thought that for erosion rates 10-20 times higher (caused by an increase in precipitation/rainfall) than the sustainability rate there is an expected decrease in diversity and abundance of soil organisms<sup>[8]</sup>. Another effect that may not appear as obvious occurs as a result of plant species (Tilman and Downing 1994). As plant specie count dropped to 5 from 25, local grassland was less resistant to drought and the total amount of biomass had dropped by more than fourfold<sup>[8]</sup>. 
 
 
-We also analysed the effect of varied precipitation on a more local scale to analyse the dynamics of the population of the Ponderosa Pine, a species of tree that is very commonly found in Sierra Nevada. We did this using a local interaction model, which is similar to the automaton model used in [Conoway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+We also analysed the effect of varied precipitation on a more local scale to analyse the dynamics of the population of the Ponderosa Pine, a species of tree that is very commonly found in Sierra Nevada. We did this using a local interaction model, which is similar to the automaton model used in [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 <p align="center">
   <img width="600" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/a8c53c5b-d8ae-4d0a-8f13-7cdb65661a8c">
 </p>
