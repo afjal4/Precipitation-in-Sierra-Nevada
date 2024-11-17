@@ -20,7 +20,7 @@ The DEM Model can be represented as a 7200x7200 Matrix := Ca (California). Ca(0)
 Now, by researching the geology of Sierra Nevada, we can identify specifically how the precipitation and steepness of the hill affect year on year errosion (defining P ∘ Ca). We model errosion here through 2 primary mechanisms: bombardment of raindrops on the mountain surface and through water flow down the mountain. 
 
 $$
-\Delta h = \Delta h_b + \Delta h+f
+\Delta h = \Delta h_b + \Delta h_f
 $$
 
 We first model Δh<sub>b</sub>:</br>
@@ -40,7 +40,7 @@ $$
 $$
 
 We now model Δh<sub>f</sub>:</br>
-
+An assumption we make when modelling errosion due to water flow is that the granite will be negligably affected, which comes as an assumption that the granite is smooth: it is difficult to model a rough surface. Instead, this takes into account elevation loss due to snow melting, where snow is dragged away by rainfall. The snow line is defined as the elevation level where snow settles on a mountain, and is a function of the temperature.
 $$
 \
 \Delta h = 
@@ -50,14 +50,11 @@ k \sin(\theta) \left( \Gamma z - T_0 \right) & h \geq z_{\text{snow}}
 \end{cases}
 \
 $$
-
-where
-
 $$
-z_{\text{snow}} = z_{\text{0}} + \frac{T<sub>0</sub> - T<sub>freeze</sub>}{\Gamma}
+\text{where } z_{\text{snow}} = z_{\text{0}} + \frac{T<sub>0</sub> - T<sub>freeze</sub>}{\Gamma}
 $$
 
-k = 0.0748
+k<sup>[5,6,7]</sup> = 0.0748
 
 Δh: Change in height (m)
 
@@ -65,7 +62,7 @@ h: Height of the point (m)
 
 z<sub>0</sub>:: Reference altitude (m)
 
-$\text{z}_{now}$: Elevation of the snowline (m)
+z<sub>now</sub>: Elevation of the snowline (m)
 
 θ: Angle of the slope (rad)
 
@@ -92,6 +89,9 @@ by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
 [2]https://www.qgis.org
 [3]https://www.sciencebase.gov/catalog/item/60356a96d34eb120311748e8
 [4]https://snrs.ucmerced.edu/natural-history/climate
+[5]Pomeroy, J., Gray, D., & Toth, B. (1998). "The role of snow accumulation in the Sierra Nevada snowpack." Journal of Hydrology. Sturm, M., & Liston, G. (2003). 
+[6]"Snow mechanics: A review of simple models." Cold Regions Science and Technology.
+[7]https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1B4E44F8B47C1A39934475B264AF8F35/S0260305500263271a.pdf/rheological-measurements-of-the-viscoelastic-properties-of-snow.pdf
 
 
 
