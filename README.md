@@ -64,7 +64,7 @@ h: Height of the point (m)
 
 z<sub>0</sub>:: Reference altitude (m)
 
-z<sub>now</sub>: Elevation of the snowline (m)
+z<sub>snow</sub>: Elevation of the snowline (m)
 
 θ: Angle of the slope (rad)
 
