@@ -59,7 +59,7 @@ k = 0.0748
 
 h: Height of the point (m)
 
-z_{\text{snow}}: Elevation of the snowline (m)
+z<subs>now<\sub>: Elevation of the snowline (m)
 
 θ: Angle of the slope (rad)
 
@@ -67,9 +67,9 @@ z_{\text{snow}}: Elevation of the snowline (m)
 
 z: Altitude in question.
 
-z_0: Reference altitude.
+z<subs>0<\sub>: Reference altitude.
 
-T_0: Reference temperature (at reference altitude).
+T<subs>0<\sub>: Reference temperature (at reference altitude).
 
 
 We can finally visualise Ca(t) as P ∘ Ca has been defined.
