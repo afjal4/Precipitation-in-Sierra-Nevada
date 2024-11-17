@@ -75,7 +75,7 @@ P = Precipitation
 
 A resultant Δh may look like the graph below. A final method of smoothing is applied by assigning P to be a linear interpolation of the 4 grid spaces it lies nearest to. This prevents blocky/patchy rain, which could result in the terrain looking minecraft-y.
 <p align="center">
-  ![delta_h](https://github.com/user-attachments/assets/0d11d538-a3de-43a6-8aa6-61e417d5fc03)
+  <img src="https://github.com/user-attachments/assets/0d11d538-a3de-43a6-8aa6-61e417d5fc03">
 </p>
 
 
