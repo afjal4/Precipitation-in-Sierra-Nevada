@@ -102,7 +102,9 @@ A final interesting thing we can observe in the long term is how different migra
 </p>
 We can apply the path finding algorithm to Ca(t) to visualise how these migratory paths will shift with time. 
 
+
 From the above two images, we can see a clear difference between the two migration routes conducted in the present time and prediction in a thousand years. This is mainly caused by climate change which is causing shifts in temperature and precipitation patterns, affecting topography as we showed in the previous section. One recent study found that current sea surface temperature extremes driven by El Niño have intensified by around 10% compared to pre-1960 levels.[9] This builds on previous studies which predicted that the frequency of extreme El Niño events could double over the next century due to faster surface warming of the eastern Pacific Ocean brought on by global temperature rises.[10] The increase in the intensity of El Niño can result in more frequent and stronger summer storms which further erode the landscape and changes the topology. This can cause further changes in the migration routes due to changes in availability of certain vegetation and any new-formed physical barriers. 
+
 
 
 
