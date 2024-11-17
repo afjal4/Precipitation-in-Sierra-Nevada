@@ -17,13 +17,17 @@ We applied a random forest/ML based algorithm to the data in each of these regio
 
 The DEM Model can be represented as a 7200x7200 Matrix := Ca (California). Ca(0) := The initial state of Sierra Nevada, and the state of Sierra Nevada after n years is Ca(n) := P(n) ∘ C(n-1), (or Ca(n) = P(n) ∘ P(n-1) ∘ ... ∘ P(1) ∘ P(0) ∘ Ca(0)). We now need to define the P ∘ Ca, or the effect of a year of Precipitation on the errosion of California. (P<sub>1</sub> ∘ P<sub>2</sub> = P<sub>1</sub> + P<sub>2</sub> which is summing the rainfall from 2 years)
 
+Now, by researching the geology of Sierra Nevada, we can identify specifically how the precipitation and steepness of the hill affect year on year errosion (defining P ∘ Ca). We model errosion here through 2 primary mechanisms: bombardment of raindrops on the mountain surface and through water flow down the mountain. 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7e67aadb-895e-4bfd-af79-70d95f794277" />
+</p>
+We first model
 One parameter affects the intensity of errosion, specifically from bombardment of rain, is slope. We find a vector field ∇Ca to the mountain range DEM matrix, and use that to find the angle of a point with the horizontal, and then the cosine of the angle as a scalar field that damps the effect of bombardment on the errosion. Essentially, steeper hills errode less to bombardment as the droplet has less of a force component into the ground.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2104dd34-6c93-4e2d-8d99-fda76790484b" />
 </p>
-
-Now, by researching the geology of Sierra Nevada, we can identify specifically how the precipitation and steepness of the hill affect year on year errosion (defining P ∘ Ca).
  --Equation
 
 We can finally visualise Ca(t) as P ∘ Ca has been defined.
