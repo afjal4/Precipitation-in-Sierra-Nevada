@@ -24,7 +24,7 @@ $$
 $$
 
 We first model Δh<sub>b</sub>:</br>
-A notable parameter that affects the intensity of bombardment due to precipitation is the <b>slope</b>. We find a vector field ∇Ca to the mountain range DEM matrix, which we use to find the angle to the horizontal, from which we infer that the effect of bombardment on the erosion is damped, by a factor of the cosine of the angle as a scalar field. Essentially, steeper hills erode less from bombardment due to precipitation as the droplet has less of a force component into the ground.
+A notable parameter that affects the intensity of bombardment due to precipitation is the <b>slope</b>. We find a vector field ∇Ca to the mountain range DEM matrix, which we use to find the angle to the horizontal, from which we infer that the effect of bombardment on the erosion is damped by a factor of the cosine of the angle as a scalar field. Essentially, steeper hills erode less from bombardment due to precipitation as the droplet has a smaller force component perpendicular to the ground.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2104dd34-6c93-4e2d-8d99-fda76790484b" />
@@ -33,7 +33,7 @@ A notable parameter that affects the intensity of bombardment due to precipitati
   cosθ, where θ is the angle between the vertical and v ∈ ∇Ca
 </p>
 
-Different geological factors also impact this errosion, namely the rock density ρ<sub>r</sub> rate of detachability D<sub>r</sub>, which is the product of porosity ϕ, saturation s and errosion coefficient k = 0.75. We decided find the average of rocks sampled uniformly throughout the mountain range<sup>[4]</sup> to achieve ϕ = 0.0947, s = 0.487, which is similar value to that of granite, which makes sense as Sierra Nevada was formed volcanically and granite is igneous.
+Different geological factors also impact this erosion; namely the rock density ρ<sub>r</sub> and its corresponding rate of detachability D<sub>r</sub>, which is a measure of its willingness to 'erode' or detach itself from the surface on which it rests. The rate of detachability is the product of its porosity ϕ, saturation s, and erosion coefficient k (which in this case, is 0.75). We decided find the average porosity and saturation values of rocks sampled uniformly throughout the mountain range<sup>[4]</sup> to arrive at ϕ = 0.0947 and s = 0.487. We note that these values are similar value to that of granite, which agrees with literature, since Sierra Nevada was formed volcanically and granite is known to be igneous.
 
 $$
 \Delta h_b = \frac{k \phi s \cos\theta}{\rho_r}P
