@@ -146,7 +146,7 @@ Many, if not all, of the models we developed come as a product of a multitude of
 
 ![1000years_elevation](https://github.com/user-attachments/assets/644a356b-1a13-4767-9bf3-45a353dd2215)
 
-by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
+by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C, Yash P
 
 [1] Access Jaxa Satellite Data (no date) JAXA Earth-graphy / Space Technology Directorate I. Available at: https://earth.jaxa.jp/en/data/index.html (Accessed: 17 November 2024). 
 [2] Spatial without compromise · Qgis Web Site (no date) · QGIS Web Site. Available at: https://www.qgis.org/ (Accessed: 17 November 2024). 
