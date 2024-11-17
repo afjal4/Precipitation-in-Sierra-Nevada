@@ -43,6 +43,9 @@ We can finally visualise Ca(t) as P ∘ Ca has been defined.
 --Gif of the future, long into the future
 
 One interesting thing we can observe in the long term is how different migratory paths might change as the landscape changes. We use an algorithm inspired by the A* Pathfinding Algorithm. By establishing a vector field using the DEM Model and by making the assumption that animals tend to take easier paths, one can then predict their movement and their paths of migration. 
+<p align="center">
+  <img width="543" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/ddcab02c-a6aa-461f-b37a-2f7168e99a63">
+</p>
 
 
 by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
