@@ -116,7 +116,7 @@ The heart of forecasting future precipitation is an implementation of the Mixtur
   <img width="600" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/12c7d003-1044-4749-8549-3c471a43c2ee">
 </p>
 
-Interestingly, vegetation comparison images, the vegetation is strongly linked with the elevation of the mountain range. After 120 years of erosion by increasing precipitation, the low-latitude area increase, hence 
+Interestingly, the vegetation seems to have thrived in the global-warming adjusted precipitation (as there are more intense green cells) which might seem counterintuitive. However, the Ponderose Pine actually thrives in warmer climates<sup>[17]</sup>. The fact that this pine thrives doesn't mean that all fauna will benefit from this weather. Due to the finite resources in the given area, competitor plants like the White Fir<sup>[18]</sup> could experience a population decrease as a consequence. The change in precipitation doesn't necessarily mean that all plant life will suffer, only that the equilibrium of proportions of plant species will shift. 
 
 
 -----
