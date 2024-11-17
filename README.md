@@ -33,7 +33,7 @@ A notable parameter that affects the intensity of bombardment due to precipitati
   cosθ, where θ is the angle between the vertical and v ∈ ∇Ca
 </p>
 
-Different geological factors also impact this erosion; namely the rock density ρ<sub>r</sub> and its corresponding rate of detachability D<sub>r</sub>, which is a measure of its willingness to 'erode' or detach itself from the surface on which it rests. The rate of detachability is the product of its porosity ϕ, saturation s, and erosion coefficient k (which in this case, is 0.75). We decided find the average porosity and saturation values of rocks sampled uniformly throughout the mountain range<sup>[4]</sup> to arrive at ϕ = 0.0947 and s = 0.487. We note that these values are similar value to that of granite, which agrees with literature, since Sierra Nevada was formed volcanically and granite is known to be igneous.
+Different geological factors also impact this erosion; namely the rock density ρ<sub>r</sub> and its corresponding rate of detachability D<sub>r</sub>, which is a measure of its willingness to 'erode' or detach itself from the surface on which it rests. The rate of detachability is the product of its porosity ϕ, saturation s, and erosion coefficient k (which in this case, is 0.75). We decided find the average porosity and saturation values of rocks sampled uniformly throughout the mountain range<sup>[4]</sup> to arrive at ϕ = 0.0947 and s = 0.487. We note that these values are similar value to that of granite, which agrees with literature, since Sierra Nevada was formed volcanically (and is rich in granite and granitic material), and granite is known to be igneous.
 
 $$
 \Delta h_b = \frac{k \phi s \cos\theta}{\rho_r}P
