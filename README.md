@@ -47,7 +47,7 @@ $$
 \Delta h_f = 
 \begin{cases} 
 0 & h < z_{\text{snow}} \\
-k \sin(\theta) \left( \Gamma h - T_0 \right) & h \geq z_{\text{snow}}
+k \sin(\theta) \left( \Gamma h - T_0 \right) & h \geq z_{\text{snow} P}
 \end{cases}
 $$
 
@@ -71,7 +71,9 @@ z<sub>snow</sub>: Elevation of the snowline (m)
 
 T<sub>0</sub>: Reference temperature (at sea level)
 
+P = Precipitation
 
+A resultant Δh may look like the graph below. A final method of smoothing is applied by assigning P to be a linear interpolation of the 4 grid spaces it lies nearest to. This prevents blocky/patchy rain, which could result in the terrain looking minecraft-y.
 
 We can finally visualise Ca(t) as P ∘ Ca has been defined.
 --Gif of the future, long into the future
@@ -85,11 +87,11 @@ We also analysed the effect of varied precipitation on a more local scale to ana
 </p>
 
 
-A final interesting thing we can observe in the long term is how different migratory paths might change as the landscape changes. We use an algorithm inspired by the A* Pathfinding Algorithm, which is an extention of Djaikstra's shortest path that uses a heuristic. By establishing a vector field using the DEM Model and by making the assumption that animals tend to take easier paths, one can then predict their movement and their paths of migration. 
+A final interesting thing we can observe in the long term is how different migratory paths might change as the landscape changes. We use an algorithm inspired by the <b>A* Pathfinding Algorithm</b>, which is an extention of Djaikstra's shortest path that uses a heuristic. By establishing a vector field using the DEM Model and by making the assumption that animals tend to take easier paths, one can then predict their movement and their paths of migration. 
 <p align="center">
   <img width="543" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/ddcab02c-a6aa-461f-b37a-2f7168e99a63">
 </p>
-We can apply the path finding algorithm to the varied 
+We can apply the path finding algorithm to Ca(t) to visualise how these migratory paths will shift with time. 
 
 
 
