@@ -52,7 +52,7 @@ One interesting thing we can observe in the long term is how different migratory
 
 We also analysed the effect of varied precipitation on a more local scale to analyse the dynamics of the  
 
-by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
+by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C, Yash P
 [1]https://earth.jaxa.jp/en/data/index.html
 [2]https://www.qgis.org
 [3]https://www.sciencebase.gov/catalog/item/60356a96d34eb120311748e8
