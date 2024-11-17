@@ -25,7 +25,6 @@ One parameter affects the intensity of errosion, specifically from bombardment o
 
 Now, by researching the geology of Sierra Nevada, we can identify specifically how the precipitation and steepness of the hill affect year on year errosion (defining P ∘ Ca).
  --Equation
- <iframe src="https://math.embed.fun/embed/sRmf8LKgN71ePXHKJJtDF3" frameborder="0" width="200" height="137"></iframe>
 
 We can finally visualise Ca(t) as P ∘ Ca has been defined.
 --Gif of the future, long into the future
