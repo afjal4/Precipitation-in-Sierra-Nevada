@@ -1,4 +1,4 @@
-# The-Long-Term-Effects-of-the-Varying-Precipitation-in-Sierra-Nevada
+# The Long Term Effects of the Varying Precipitation in Sierra Nevada
 
 A consequence of the increasingly turbulent global climate is that the Sierra Nevada Mountain Region - located in Eastern California - has undergone significant topographical change. In this project, we  explore the long term topographical changes attributed to the ever-changing precipitational patterns, and how the ecology of the mountain range develops accordingly. We specifically analyse the <b>long term</b> effects of the varied rainfall in this project, focusing especially on annual (or even decade-wide) fluctuations, as opposed to smaller seasonal changes.
 
