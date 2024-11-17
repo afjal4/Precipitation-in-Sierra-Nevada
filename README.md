@@ -1,4 +1,4 @@
-# The Long Term Effects of the Varying Precipitation in Sierra Nevada
+mkm# The Long Term Effects of the Varying Precipitation in Sierra Nevada
 
 A consequence of the increasingly turbulent global climate is that the Sierra Nevada Mountain Region (Eastern California) has undergone significant topographical change. In this project, we explore the long term topographical changes attributed to the ever-changing precipitation patterns, and how the ecology of the mountain range develops accordingly. We specifically analyse the <b>long term</b> effects of the varied rainfall in this project, focusing especially on annual (or even decade-wide) fluctuations, as opposed to smaller seasonal changes.
 
@@ -100,7 +100,9 @@ One obvious ecological feature that can be observed from this data is the effect
 -----
 We also analysed the effect of varied precipitation on a more local scale to analyse the dynamics of the population of the Ponderosa Pine, a species of tree that is very commonly found in Sierra Nevada. We did this using a local interaction model, which is similar to the automaton model used in [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). 
 
-<img width="679" alt="image" src="https://github.com/user-attachments/assets/ce907553-dc09-4c48-9272-9b72ba3a6b04">
+<p align="center">
+  <img width="600" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/a8c53c5b-d8ae-4d0a-8f13-7cdb65661a8c">
+</p>
 
 The heart of forecasting future precipitation is an implementation of the Mixture Density Network (MDN). MDNs are a class of neural networks that are designed to be able to predict a mixture of probability distributions [14]. Essentially, an MDN allows the modelling of a conditional probability distribution as a mixture of distributions, in which the individual distributions and the corresponding mixture coefficients are parameterized by functions of the inputs [15] - the above image, adapted from [18], depicts this. Following the implementation in [17], the MDNDecisionMaker class is a neural network that is designed to predict both the mean and covariance parameters of a Gaussian distribution. This is achieved through three key components. The first part of the network is a series of fully connected layers interspersed with activation functions (SiLU) and dropout layers. The purpose of this network is to learn the general structure of the data and generate a hidden representation of the input features. After the feed-forward network, we predict the means of the output distribution. The mean network takes the hidden representation from the previous layers and uses a fully connected network to output the predicted means. Finally, Cholesky decomposition: For the covariance matrix, the model predicts the lower triangular elements of the Cholesky decomposition (i.e., the matrix that is used to construct the covariance matrix) [16]. The final output of the network consists of the predicted mean vector and the Cholesky decomposition of the covariance matrix. The $\verb|forward()|$ function of the class returns these outputs, with an option to return the covariance matrix if requested. This output forms the basis for modeling the uncertainty in the precipitation data looking forward [18]; we note the log-likelihood of the trained network is approximately -0.98, demonstrating reasonably good convergence.
 
@@ -109,15 +111,10 @@ The heart of forecasting future precipitation is an implementation of the Mixtur
 </p>
 
 <p align="center">
-  <img width="600" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/a8c53c5b-d8ae-4d0a-8f13-7cdb65661a8c">
-</p>
-
-<p align="center">
   <img width="600" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/12c7d003-1044-4749-8549-3c471a43c2ee">
 </p>
 
 Interestingly, the vegetation seems to have thrived in the global-warming adjusted precipitation (as there are more intense green cells) which might seem counterintuitive. However, the Ponderose Pine actually thrives in warmer climates<sup>[19]</sup>. The fact that this pine thrives doesn't mean that all fauna will benefit from this weather. Due to the finite resources in the given area, competitor plants like the White Fir<sup>[20]</sup> could experience a population decrease as a consequence. The change in precipitation doesn't necessarily mean that all plant life will suffer, only that the equilibrium of proportions of plant species will shift. 
-
 
 -----
 A final interesting thing we can observe in the long term is how different migratory paths might change as the landscape changes. We use an algorithm inspired by the <b>A* Pathfinding Algorithm</b>, which is an extension of Djaikstra's shortest path that uses a heuristic. By establishing a vector field using the DEM Model and by making the assumption that animals tend to take easier paths, one can then predict their movement and their paths of migration. 
@@ -139,12 +136,10 @@ We can see a drastic change in the migratory path over this much longer period o
 
 Many species play key roles in pollination and seed dispersal, both of which are critical for maintaining plant diversity and ecosystem stability. For example, migratory birds and insects often transport pollen or seeds across vast distances. If their migration routes are disrupted, plants may face reduced pollination or struggle to spread their seeds to suitable environments, leading to changes in plant community composition and potentially the loss of certain species[12].
 
-Ultimately, the models we developed based on our acquisition of secondary data and an amalgamation of useful equations and assumptions. We believe our models notably succeeded in predictions for the near future;  for instance with the Pathfinding Algorithm for migration route changes and the MDN as a neural network, especially in the conceivability of their forecasts for short future time frames. However, our models seemed to approach more unreasonable values as our time variable increased, so we’re inclined to believe that they’re unsuitable for larger time frames; for instance with the (AFJAL QUANTISE SOMETHING HERE)
+Final Caveat:
+Many, if not all, of the models we developed come as a product of a multitude of assumptions and future forecasted data. We believe our models notably succeeded in predictions for the semi-distant future;  for instance the errosion diagrams look very feasable/believable at the timeframes we used (~100 years). However, the same model yields the diagram below for t=1000 years. We appreciate that parts of our model do not apply for all values of t, but our models work for the mid-long term as we specified at the start.
 
-
-
-
-
+![1000years_elevation](https://github.com/user-attachments/assets/644a356b-1a13-4767-9bf3-45a353dd2215)
 
 by Afjal C, Arvind C, Tom A, Sahil B, Tianzong C, Connie C
 
