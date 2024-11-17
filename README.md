@@ -92,8 +92,8 @@ We can finally visualise Ca(t) as P ∘ Ca has been defined.
 ## The Effect on the Long-Term Ecology
 One obvious ecological feature that can be observed from this data is the effect on the physical elevations/topography of the mountain range. We can observe that diminishing organic matter in soil, or more generally, overall soil quality leads to decreased biomass productivity. As a result, we can expect to see a reduction in animal/plant/any form of life diversity in the ecosystem. Another effect that may not appear as obvious occurs as a result of plant species (Tilman and Downing 1994). As plant specie count dropped to 5 from 25, local grassland was less resistant to drought and the total amount of biomass had dropped by more than fourfold<sup>[8]</sup>. 
 
---3D before and after
-
+![image](https://github.com/user-attachments/assets/001bc187-ebfa-4284-8431-d357cd93e213)
+---
 We also analysed the effect of varied precipitation on a more local scale to analyse the dynamics of the population of the Ponderosa Pine, a species of tree that is very commonly found in Sierra Nevada. We did this using a local interaction model, which is similar to the automaton model used in [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). 
 
 The heart of this code is an implementation of the Mixture Density Network (MDN). MDNs are a class of neural networks designed to predict a mixture of probability distributions. This model is particularly suitable for predicting outputs that are probabilistic and lack sufficient train data. The MDNDecisionMaker class is a neural network that is designed to predict both the mean and covariance parameters of a Gaussian distribution. This is achieved through three key components. Feed-forward Network: The first part of the network is a series of fully connected layers interspersed with activation functions (SiLU) and dropout layers. The purpose of this network is to learn the general structure of the data and generate a hidden representation of the input features. Batch normalisation is applied to normalise the input and hidden layers, which improves our training speed and stability. After the feed-forward network, the next step is to predict the means of the output distribution. The mean network takes the hidden representation from the previous layers and uses a fully connected network to output the predicted means. Finally, Cholesky decomposition: For the covariance matrix, the model predicts the lower triangular elements of the Cholesky decomposition (i.e., the matrix that is used to construct the covariance matrix). The final output of the network consists of the predicted mean vector and the Cholesky decomposition of the covariance matrix. The $\verb|forward()|$ function of the class returns these outputs, with an option to return the covariance matrix if requested. This output forms the basis for modeling the uncertainty in the precipitation data looking forward.
@@ -109,7 +109,7 @@ The heart of this code is an implementation of the Mixture Density Network (MDN)
 <p align="center">
   <img width="350" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/fb2fed92-b135-4c35-b780-b17ac217c776">
 </p>
-
+---
 A final interesting thing we can observe in the long term is how different migratory paths might change as the landscape changes. We use an algorithm inspired by the <b>A* Pathfinding Algorithm</b>, which is an extension of Djaikstra's shortest path that uses a heuristic. By establishing a vector field using the DEM Model and by making the assumption that animals tend to take easier paths, one can then predict their movement and their paths of migration. 
 <p align="center">
   <img width="543" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/ddcab02c-a6aa-461f-b37a-2f7168e99a63">
@@ -121,9 +121,10 @@ We can apply the path finding algorithm to Ca(t) to visualise how these migrator
 </p>
 When 50 years passes, the migratory path looks roughly similar. This is as errosion is typically a slow process<sup>[4.1]</sup> so 50 years is unlikely to see any/much change.
 <p align="center">
-  <img width="543" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/214c957a-0a77-45ee-86a9-5e88fef7ccc1">
+  <img width="543" alt="Screenshot 2024-11-17 at 02 33 46" src="https://github.com/user-attachments/assets/55a4fe0b-bc8a-48de-9d00-22298e0abf02">
   Path after 1000 years
 </p>
+
 We can see a drastic change in the migratory path over this much longer period of time. One recent study found that current sea surface temperature extremes driven by El Niño have intensified by around 10% compared to pre-1960 levels.[9] This builds on previous studies which predicted that the frequency of extreme El Niño events could double over the next century due to faster surface warming of the eastern Pacific Ocean brought on by global temperature rises.[10] The increase in the intensity of El Niño can result in more frequent and stronger summer storms which further erode the landscape and changes the topology. This can cause further changes in the migration routes due to changes in the availability of certain vegetation and any newly formed physical barriers. 
 
 Furthermore, animals changing migration routes can lead to disruption of nutrient cycling, alter habitat availability, and impact pollination and seed dispersal. Many migratory species contribute significantly to nutrient cycling. For example, large herbivores (e.g.: mule deer) that migrate across landscapes help cycle nutrients through their droppings, enriching soil fertility. If these species change their routes, the flow of nutrients could be altered, leading to shifts in soil health, plant productivity, and the overall resilience of ecosystems.[11] 
