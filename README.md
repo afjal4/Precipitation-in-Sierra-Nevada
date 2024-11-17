@@ -1,6 +1,6 @@
 # The-Long-Term-Effects-of-the-Varying-Precipitation-in-Sierra-Nevada
 
-A consequence of the increasingly turbulent global climate is that the Sierra Nevada Mountain Region - located in Eastern California - has undergone significant topographical change. In this project, we will explore the long term topographical changes attributed to the ever-changing precipitational patterns, and how the ecology of the mountain range develops accordingly. We will specifically analyse the <b>long term</b> effects of the varied rainfall in this project, focussing more on fluctuations year to year, or decade to decade versus any variation between eg. summer and winter.
+A consequence of the increasingly turbulent global climate is that the Sierra Nevada Mountain Region - located in Eastern California - has undergone significant topographical change. In this project, we  explore the long term topographical changes attributed to the ever-changing precipitational patterns, and how the ecology of the mountain range develops accordingly. We specifically analyse the <b>long term</b> effects of the varied rainfall in this project, focusing especially on annual (or even decade-wide) fluctuations, as opposed to smaller seasonal changes.
 
 > "...global climate models don’t capture the fine-scale topography and regional characteristics that we know shape our weather and climate around us." (Niel Berg), on the tumultuous topography of Sierra Nevada
 
@@ -10,8 +10,8 @@ We start by creating a <b>DEM (Digital Elevation Model)</b> for the mountain ran
   <img src="https://github.com/user-attachments/assets/fe508619-f97e-4a34-bd10-70871ee8eca9" />
 </p>
 
-We then forecast the precipitational patterns in Sierra Nevada from historic data across 400 regions within the DEM, represented by a 20x20 Matrix := P(y), where y is the precipitation by year. This <b>lower resolution is much more appropriate</b> for this context as when we go onto forecast using these matricies, it is much more viable to store eg. 2000 20x20 matricies (3MB) vs 2000 7200x7200 matricies (392GB).
-
+We then forecast the precipitation patterns in Sierra Nevada from historic data across 400 regions within the DEM, represented by a 20x20 Matrix := P(y), where y is the precipitation by year. This <b>lower resolution is much more appropriate</b> for this context as it is much more viable to store eg. 2000 20x20 matricies (3MB) vs 2000 7200x7200 matricies (392GB).
+when we go onto forecast using these matrices. 
 ![output](https://github.com/user-attachments/assets/d05bb357-1cc3-45a8-919e-edbaf348fdc2)
 
 We applied a <b>random forest/ML based algorithm</b> to the data in each of these regions to forecast a precipitation matrix that fully utilises all 400 time series for each subregion, so the y parameter within P(y) grants varied precipitation P based on the Random Forest forecast. When we first ran this algorithm using a pure random forest approach, the P matricies converged towards being uniform (ie. λJ). We modelled the noise in this process through adding a <b>gaussian stochastic parameter</b>, which resulted in P(t) maintaining the desirable similarities between the historic data while having clear changes that incorporated spatial growth versus spontaneous growth. This is also partially because a forecast of the temperature := T is also used affect P, to represent how <b>more water is in the system</b>; eastern winds from the pacific<sup>[3]</sup> grant a greater net income of water into the mountain range, as well as water melting from ice, freeing it from storage. We can now find values for P(y) for y in the future. We now define P(t) := the matrix P, t years after today (in 2024). 
