@@ -47,6 +47,7 @@ $$
 \begin{cases} 
 0 & \text{if } h < z_{\text{snow}} \\
 k \sin(\theta) \left( \Gamma (z - z_0) - T_0 \right) & \text{if } h \geq z_{\text{snow}}
+\end{cases}
 $$
 
 
