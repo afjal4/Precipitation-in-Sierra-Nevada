@@ -8,6 +8,7 @@ We start by creating a <b>DEM (Digital Elevation Model)</b> for the mountain ran
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fe508619-f97e-4a34-bd10-70871ee8eca9" />
+\caption{"Figure 1: Data from the JAXA global sattelite imaging"}
 </p>
 
 We then forecast the precipitation patterns in Sierra Nevada from historic data across 400 regions within the DEM, represented by a 20x20 Matrix := P(y), where y is the precipitation by year. This <b>lower resolution is much more appropriate</b> for this context as it is much more viable to store 2000 20x20 matricies (3MB) as opposed to 2000 7200x7200 matricies (392GB) when we proceed with using these matrices for future forecasts. 
