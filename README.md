@@ -36,7 +36,7 @@ One parameter affects the intensity of bombardment is the slope. We find a vecto
 Different geological factors also impact this errosion, namely the rock density ρ<sub>r</sub> rate of detachability D<sub>r</sub>, which depends on the porosity ϕ, saturation s and errosion coefficient k = 0.75. We decided find the average of rocks sampled uniformly throughout the mountain range<sup>[4]</sup> to achieve ϕ = 0.0947, s = 0.487, which is similar value to that of granite, which makes sense as Sierra Nevada was formed volcanically and granite is igneous.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/abc2b557-7a0b-41f4-b831-3a123d5bb8ba" />
+  <img src="https://github.com/user-attachments/assets/83836ee8-b8ec-4592-a1e0-ebb2343c7783" />
 </p>
 
 We now model Δh<sub>f</sub>:</br>
