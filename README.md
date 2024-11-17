@@ -18,7 +18,7 @@ We applied a <b>random forest/ML based algorithm</b> to the data in each of thes
 
 The DEM Model can be represented as a 7200x7200 Matrix := Ca (California). Ca(0) := The initial state of Sierra Nevada, and the state of Sierra Nevada after n years is Ca(n) := P(n) ∘ C(n-1), (or Ca(n) = P(n) ∘ P(n-1) ∘ ... ∘ P(1) ∘ P(0) ∘ Ca(0)). We now need to define <b>P ∘ Ca</b>, or the effect of a year of Precipitation on the errosion of California. (P<sub>1</sub> ∘ P<sub>2</sub> = P<sub>1</sub> + P<sub>2</sub> which is summing the rainfall from 2 years)
 
-By reading more into the geology of Sierra Nevada, we can identify specifically how the precipitation and steepness of the hill affect year on year errosion (defining P ∘ Ca). We model errosion here through 2 primary mechanisms: <b>bombardment</b> of raindrops on the mountain surface and through water <b>flow</b> down the mountain. 
+By reading more into the geology of Sierra Nevada, we can identify specifically how the precipitation affects year on year errosion (defining P ∘ Ca). We model errosion here through 2 primary mechanisms: <b>bombardment</b> of raindrops on the mountain surface and through water <b>flow</b> down the mountain. 
 
 $$
 \Delta h = \Delta h_b + \Delta h_f
